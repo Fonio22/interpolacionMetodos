@@ -1,3 +1,6 @@
+@import url("//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.9.0/katex.min.css");
+
+
 html,
 body {
   padding: 0;
@@ -20,7 +23,12 @@ a {
     color-scheme: dark;
   }
   body {
-    color: white;
-    background: black;
+    color: black;
+    background: white;
   }
+}
+
+.rv-xy-plot__grid-lines__line {
+  stroke: gray;
+  stroke-width: 0.5;
 }

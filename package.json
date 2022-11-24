@@ -9,10 +9,19 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@hookform/resolvers": "^2.9.10",
+    "bootstrap": "^5.2.2",
+    "d3-shape": "^3.1.0",
     "eslint": "8.28.0",
     "eslint-config-next": "13.0.4",
     "next": "13.0.4",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-bootstrap": "^2.6.0",
+    "react-dom": "18.2.0",
+    "react-hook-form": "^7.39.4",
+    "react-latex": "^2.0.0",
+    "react-notifications-component": "^4.0.1",
+    "react-vis": "^1.11.7",
+    "yup": "^0.32.11"
   }
 }
