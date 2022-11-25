@@ -450,8 +450,7 @@ export default function Index() {
 
               <h6>Coeficiente de determinación</h6>
               <p>
-                r^2
-                {(resultado.coeficienteDeterminacion * 100).toFixed(2)}%
+                r^2 = {(resultado.coeficienteDeterminacion * 100).toFixed(2)}%
               </p>
 
               <h6>Coeficiente de correlación</h6>
