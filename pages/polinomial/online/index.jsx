@@ -382,11 +382,11 @@ export default function Index() {
               <h6>La ecuación</h6>
 
               <div className="mb-2">
-                <p>{`$ y = ${resultado.a0.toFixed(4)} ${
+                <p>{`y = ${resultado.a0.toFixed(4)} ${
                   resultado.a1 > 0 ? ` + ${resultado.a1}` : resultado.a1
                 }x ${
                   resultado.a2 > 0 ? ` + ${resultado.a2}` : resultado.a2
-                }x^2 $`}</p>
+                }x^2`}</p>
               </div>
               <p>
                 <a
@@ -420,7 +420,7 @@ export default function Index() {
                           marginLeft: 10,
                         }}
                       >
-                        <p>{`$ = ${item.y ? item.y : 0} $`}</p>
+                        <p>{` = ${item.y ? item.y : 0}`}</p>
                       </div>
                     </div>
                   ))}
