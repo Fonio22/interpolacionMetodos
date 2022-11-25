@@ -118,7 +118,7 @@ export default function index() {
 
         <div className="mt-4">
           <h6>
-            Selecciona la cantidad de datos que deseas calcular por el metodo de
+            Selecciona la cantidad de datos que deseas calcular por el método de
             Simpson
           </h6>
           <Form.Select
@@ -201,7 +201,7 @@ export default function index() {
             <p>El resultado es: {resultado.result}</p>
             <p>El error verdadero es: {resultado.Ev}</p>
             <div className="mt-3">
-              <h5 className="">Grafica</h5>
+              <h5 className="">Gráfica</h5>
               <Card className="p-3" style={{ width: 450 }}>
                 <XYPlot width={400} height={400}>
                   <VerticalGridLines />

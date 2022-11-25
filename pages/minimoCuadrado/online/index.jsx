@@ -164,11 +164,11 @@ export default function index() {
   return (
     <Layout>
       <Container fluid="xl" className="pt-3">
-        <h1>Minimo cuadrado</h1>
+        <h1>Mínimo cuadrado</h1>
         <div className="mt-4">
           <h6>
-            Selecciona la cantidad de datos que deseas calcular por el metodo de
-            minimo cuadrado
+            Selecciona la cantidad de datos que deseas calcular por el método de
+            mínimo cuadrado
           </h6>
           <Form.Select
             aria-label="Default select example"
@@ -252,7 +252,7 @@ export default function index() {
           <Container className="border mt-4 p-3 mb-5">
             <h4>Resultado</h4>
             <div className="mt-4">
-              <h6>La ecuacion</h6>
+              <h6>La ecuación</h6>
               <p>
                 y = {resultado.a0} + {resultado.a1}x
               </p>
@@ -314,21 +314,21 @@ export default function index() {
                 </Container>
               )}
 
-              <h6>Desviacion</h6>
+              <h6>Desviación</h6>
               <p>Sy = {resultado.tablaError.Desviación.Sy}</p>
 
-              <h6>Error estandar</h6>
+              <h6>Error estándar</h6>
               <p>Syx = {resultado.tablaError.ErrorEstandar.Syx}</p>
 
-              <h6>Coeficiente de determinacion</h6>
+              <h6>Coeficiente de determinación</h6>
               <p>R2 = {resultado.tablaError.CoeficienteDeterminacion * 100}%</p>
 
-              <h6>Coeficiente de correlacion</h6>
+              <h6>Coeficiente de correlación</h6>
               <p>R = {resultado.tablaError.CoeficienteCorrelacion}</p>
             </div>
 
             <div className="mt-3">
-              <h5 className="">Grafica</h5>
+              <h5 className="">Gráfica</h5>
               <Card style={{ width: 650 }} className="p-3">
                 <XYPlot width={600} height={300}>
                   <VerticalGridLines />

@@ -23,13 +23,13 @@ const schema = yup
   .object()
   .shape({
     a: yup
-      .number("Este campo debe ser numero")
+      .number("Este campo debe ser número")
       .required("Este campo es requerido"),
     b: yup
-      .number("Este campo debe ser numero")
+      .number("Este campo debe ser número")
       .required("Este campo es requerido"),
     n: yup
-      .number("Este campo debe ser numero")
+      .number("Este campo debe ser número")
       .required("Este campo es requerido"),
   })
   .required();
@@ -70,7 +70,7 @@ export default function index() {
     if (a >= b) {
       Store.addNotification({
         title: "Error",
-        message: "El limite inferior debe ser menor al limite superior",
+        message: "El límite inferior debe ser menor al límite superior",
         type: "danger",
         insert: "top",
         container: "top-right",
@@ -121,14 +121,14 @@ export default function index() {
         <h1>Regla Trapezoidal</h1>
         <div className="mt-4">
           <h6>
-            Formula para las calcular desplazamiento de un nuevo prototipo de
+            Fórmula para las calcular desplazamiento de un nuevo prototipo de
             cohete.
           </h6>
           <Image
             src={formulaTrapecio}
             width={200}
             height={150}
-            alt="formula de trapezoide"
+            alt="fórmula de trapezoide"
           />
         </div>
         <div
@@ -145,10 +145,10 @@ export default function index() {
             <Row>
               <Col>
                 <Form.Group className="mb-3" controlId="formBasicEmail">
-                  <Form.Label>a (limite inferior)</Form.Label>
+                  <Form.Label>a (límite inferior)</Form.Label>
                   <Form.Control
                     type="number"
-                    placeholder="Ingrese in numero"
+                    placeholder="Ingrese un número"
                     {...register("a")}
                     isInvalid={!!errors.a}
                   />
@@ -159,10 +159,10 @@ export default function index() {
               </Col>
               <Col>
                 <Form.Group className="mb-3">
-                  <Form.Label>b (limite superior)</Form.Label>
+                  <Form.Label>b (límite superior)</Form.Label>
                   <Form.Control
                     type="number"
-                    placeholder="Ingrese in numero"
+                    placeholder="Ingrese un número"
                     {...register("b")}
                     isInvalid={!!errors.b}
                   />
@@ -176,7 +176,7 @@ export default function index() {
                   <Form.Label>Cantidad n de intervalos</Form.Label>
                   <Form.Control
                     type="number"
-                    placeholder="Ingrese in numero"
+                    placeholder="Ingrese un número"
                     {...register("n")}
                     isInvalid={!!errors.n}
                   />
@@ -237,7 +237,7 @@ export default function index() {
             <p>{errorTrapezoidal}</p>
 
             <div className="mt-3">
-              <h5 className="">Grafica</h5>
+              <h5 className="">Gráfica</h5>
               <Card className="p-3" style={{ width: 450 }}>
                 <XYPlot width={400} height={400}>
                   <VerticalGridLines />
