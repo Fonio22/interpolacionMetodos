@@ -23,7 +23,7 @@ import { MinimoCuadrado } from "../../../funcions/funcionsGlobal";
 
 let arrayViejo = [];
 
-export default function index() {
+export default function Index() {
   const [value, setValue] = useState(2);
   const [cuadrosX, setCuadrosX] = useState([]);
   const [cuadrosY, setCuadrosY] = useState([]);

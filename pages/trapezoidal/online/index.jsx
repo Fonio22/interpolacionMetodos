@@ -34,7 +34,7 @@ const schema = yup
   })
   .required();
 
-export default function index() {
+export default function Index() {
   const {
     register,
     handleSubmit,
