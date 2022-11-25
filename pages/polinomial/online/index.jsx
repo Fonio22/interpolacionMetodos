@@ -450,7 +450,7 @@ export default function Index() {
 
               <h6>Coeficiente de determinación</h6>
               <p>
-                <Latex>$r^2$</Latex> ={" "}
+                r^2
                 {(resultado.coeficienteDeterminacion * 100).toFixed(2)}%
               </p>
 
