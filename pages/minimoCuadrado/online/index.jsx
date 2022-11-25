@@ -289,7 +289,7 @@ export default function Index() {
                           marginLeft: 10,
                         }}
                       >
-                        <Latex>{`$ = ${item.y ? item.y : 0} $`}</Latex>
+                        <p> = {item.y ? item.y : 0}</p>
                       </div>
                     </div>
                   ))}
